@@ -1,0 +1,23 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Datos locales (índice FAISS y documentos cargados)
+.data/
+documents/*
+
+# Configuración local
+.env
+
+# Streams / caches de Streamlit
+.streamlit/
+
+# Varios
+.DS_Store
+Thumbs.db
+*.log
